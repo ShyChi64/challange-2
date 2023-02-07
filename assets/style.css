@@ -1,70 +1,75 @@
-::selection {
-    background-color: #fff;
-    color: rgb(223, 23, 223);
+
+::selection { 
+    background-color: #fff; 
+    color: rgb(red, green, blue); 
 }
 
-html {
-
-    font-size: 62.5%; 
-}
-
-body {
+*{ 
+    margin: 0; 
+    padding: 0; 
     font-family: sans-serif;
-    font-size: 1.75rem; 
-    line-height: 1.5; 
+} 
+
+header{ 
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+.page-title{ 
+    font-size: 30px;
+}
+
+.about-me { 
+
+    position: relative; 
+    width: 100%; 
+    heigh: 100vh; 
+    background: #fff; 
+}
+
+.nav-bar{    
+    justify-content: space-between;
+}
+
+nav ul li{ 
+
+    display: inline-block; 
+    list-style: none;
+    margin: 10px 20px; 
+}
+
+nav ul li a{ 
+    text-decoration: none;
     color: black; 
-    background-color: #fff;
+    font-weight: bold; 
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin-bottom: 0.625rem;
-    color: darkorchid;
-    font-weight: 700;
-    line-height: 1.1;
+nav ul li a:hover{ 
+    color: purple; 
 }
 
-h1 { 
-    font-size: 4rem;
+.about-me{  
+    margin-top: 8%; 
 }
 
-h2 { 
-    font-size: 4rem;
-}
+.about-me h2{ 
+    font-size: 50px; 
+    color:blueviolet
+    margin-bottom 20px;
 
-h3 { 
-    font-size: 4rem;
-}
-
-h4 { 
-    font-size: 4rem;
-}
-
-h5 {
-    font-size: 4rem;
-}
-
-
-p { 
-    margin-bottom: 1rem; 
-}
-
-header { 
-    width: 100% 
-     
 }
 
 
 
-
-
-footer { 
-    margin: 1.5rem; 
-    text-align: center;
+.portfolio h3{ 
+    font-size: 50px; 
 }
 
+.contact-me h4{ 
+    font-size: 50px; 
+}
 
+.resume h5{ 
+    font-size: 50px;
+}
