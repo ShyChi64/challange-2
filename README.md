@@ -5,3 +5,4 @@ This website is a portfolio for Kelsi Thacker. It contains information about her
 
 ## Screen shot of the Website
 
+<img width="1440" alt="Screen Shot 2023-02-06 at 10 05 56 PM" src="https://user-images.githubusercontent.com/121900511/217153601-bfd07965-15cc-4d18-b086-77f4cd54ce80.png">
